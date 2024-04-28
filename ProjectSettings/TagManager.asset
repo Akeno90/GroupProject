@@ -4,7 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Ignite
+  - Shootable
+  - Right Hand
+  - Left Hand
+  - Bullet
+  - Target
+  - Queen
+  - Key1
+  - Key2
+  - Key3
   layers:
   - Default
   - TransparentFX
@@ -12,12 +20,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - Grabbable
-  - Hands
-  - Teleporter
-  - NoHandCollide
+  - Player
+  - Interactable
+  - Lighting
+  - Ground
+  - Postprocessing
+  - Gaze
   - 
   - 
   - 
@@ -39,6 +47,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Fire
+    uniqueID: 3804908061
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
